@@ -331,6 +331,16 @@ i {
   .active .player-name { 
     font-weight: 300;
   }
+
+  .dice { 
+  position: absolute;
+  left: 55%;
+  top: 178px;
+  transform: translateX(-50%);
+  height: 100px;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+  
   .player-current-box { 
     width: 5rem;
     padding: 3px;
