@@ -83,7 +83,7 @@ body {
   text-align: center;
   font-size: 80px;
   font-weight: 100;
-  color: green;
+  color: red;
   margin-bottom: 130px;
 }
 
@@ -99,7 +99,7 @@ body {
   content: "\2022";
   font-size: 47px;
   position: absolute;
-  color: green;
+  color: red;
   top: -7px;
   right: 10px;
 }
@@ -129,7 +129,7 @@ button {
   width: 200px;
   left: 50%;
   transform: translateX(-50%);
-  color: black;
+  color: red;
   background: none;
   border: none;
   font-family: Lato;
@@ -149,7 +149,7 @@ button:hover i {
 }
 
 i { 
-  color: green;
+  color: red;
   display: inline-block;
   margin-right: 15px;
   font-size: 32px;
@@ -181,17 +181,17 @@ i {
 }
 
 .winner { 
-  background-color: #f7f7f7;
+  background-color: green;
 }
 
 .winner .player-score { 
   font-weight: 300;
-  color: maroon;
+  color: red;
 }
 
 .winner .player-name { 
   font-weight: 300;
-  color: maroon;
+  color: red;
 }
 
 
@@ -200,7 +200,7 @@ i {
 
 @media (max-width: 1024px) { 
   .wrapper { 
-    width: 90%;
+    width: 95%;
   }
   .final-score { 
     left: 75%;
@@ -211,8 +211,8 @@ i {
     width: 140px;
   }
   .player-0-panel, .player-1-panel { 
-    width: 40%;
-    height: 500px;
+    width: 46%;
+    height: 580px;
     padding: 80px;
   }
   .player-name { 
@@ -292,7 +292,7 @@ i {
 /*==== MEDIA QUERIES (PHONES) ====*/
 @media (max-width: 667px) { 
   .wrapper { 
-    width: 80%;
+    width: 90%;
   }
   .final-score { 
     left: 81%;
@@ -303,33 +303,33 @@ i {
     width: 110px;
   }
   .player-0-panel, .player-1-panel { 
-    width: 37%;
-    height: 450px;
+    width: 44%;
+    height: 550px;
     padding: 75px;
   }
   .player-name { 
-    font-size: 12px;
-    font-weight: 200;
+    font-size: 17px;
+    font-weight: 300;
     letter-spacing: 1px;
     margin-top: 13px;
   margin-bottom: 5px;
   margin-left: -5px;
   }
   .player-score { 
-    font-size: 25px;
-    font-weight: 100;
+    font-size: 26px;
+    font-weight: 150;
     margin-bottom: 120px;
   }
   .active .player-name { 
-    font-weight: 200;
+    font-weight: 300;
   }
   .active .player-name::after { 
-    font-size: 29px;
+    font-size: 35px;
     top: -10px;
     right: -58px;
   }
   .active .player-name { 
-    font-weight: 200;
+    font-weight: 300;
   }
   .player-current-box { 
     width: 5rem;
@@ -345,15 +345,15 @@ i {
   }
   button { 
     width: 120px;
-    font-size: 12px;
-    font-weight: 100;
+    font-size: 15px;
+    font-weight: 150;
   }
   button:hover { 
     font-weight: 300;
   }
   i { 
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: -3px;
   }
   .btn-new { 
@@ -363,7 +363,7 @@ i {
     top: 350px;
   }
   .btn-hold { 
-    top: 390px;
+    top: 420px;
   }
   .dice { 
     height: 45px;
