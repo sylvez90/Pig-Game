@@ -316,8 +316,8 @@ i {
   margin-left: -5px;
   }
   .player-score { 
-    font-size: 26px;
-    font-weight: 150;
+    font-size: 55px;
+    font-weight: 200;
     margin-bottom: 120px;
   }
   .active .player-name { 
@@ -360,10 +360,10 @@ i {
     top: 40px;
   }
   .btn-roll { 
-    top: 350px;
+    top: 400px;
   }
   .btn-hold { 
-    top: 420px;
+    top: 480px;
   }
   .dice { 
     height: 45px;
